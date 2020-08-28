@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@saisahithvarma 
-Praneet-K
-/
-module4-solution
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-module4-solution/easier/script.js /
-@Praneet-K
-Praneet-K small change
-Latest commit 3f0df53 18 days ago
- History
- 1 contributor
-70 lines (62 sloc)  2.38 KB
-  
 // ******************************* 
 // START HERE IF YOU WANT AN EASIER STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -87,11 +57,11 @@ for (var i = 0; i < names.length; i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter === 'j') {
-    console.log(byespeaker);
-    //byespeaker.speak(names[i]);
+   //console.log(byespeaker);
+    byespeaker.speak(names[i]);
   } else {
-    console.log(hellospeaker);
-    //hellospeaker.speak(names[i]);
+    //console.log(hellospeaker);
+    hellospeaker.speak(names[i]);
   }
 }
 
